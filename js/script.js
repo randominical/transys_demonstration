@@ -13,6 +13,8 @@ $(document).ready(function() {
         $('.menu__burger, .menu__body, .body-menu__logo, .body-menu__bottom').removeClass('active');
     });
 });;
+let map: google.maps.Map;
+
 window.initMap = function() {
     map = new google.maps.Map(document.getElementById('map'), {
        center: {lat: 52.090050, lng: 23.694638},
